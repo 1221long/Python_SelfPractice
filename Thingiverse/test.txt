@@ -1,0 +1,1513 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <title>Chess Set by adamcecc - Thingiverse</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Language" content="EN">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="keywords" content="things, digital design, physical objects, rapid prototyping, 3D objects, 3D printing, reprap, fabrication, laser cutter, laser, thingaverse, thingyverse">
+        <meta name="abstract" content="Share your digital designs for physical objects.">
+        <meta name="author" content="Thingiverse.com">
+        <meta name="distribution" content="Global">
+        <meta name="revisit-after" content="1 days">
+        <meta name="robots" content="follow,index">
+        <meta name="description" content="This is a vector file for cutting chess pieces on a cnc machine or laser cutter.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link href="/css/pickadate.css?v=1" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/css/build/screen_grids-6df78c4010.css">
+
+            <meta property="og:title" content="Chess Set by adamcecc" />
+    <meta property="og:url" content="http://www.thingiverse.com/thing:20" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="This is a vector file for cutting chess pieces on a cnc machine or laser cutter." />
+    <meta property="og:image" content="https://cdn.thingiverse.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg" />
+        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@thingiverse">
+    <meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Chess Set by adamcecc">
+<meta name="twitter:description" content="This is a vector file for cutting chess pieces on a cnc machine or laser cutter.">
+    <meta name="twitter:image:src" content="https://cdn.thingiverse.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg">
+    <meta name="twitter:url" content="http://www.thingiverse.com/thing:20">
+
+                    <script src="/js/thingiverse/build/header/scripts-header-min-8363f392ef.js"></script>
+                <script src="/js/webshim/polyfiller.js"></script>
+
+                    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+            <link rel="icon" type="image/png" href="/img/favicons/favicon-192x192.png" sizes="192x192">
+            <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png" sizes="160x160">
+            <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+            <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+            <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+        
+        <!--[if lte IE 8]>
+            <script src="/js/respond.min.js"></script>
+        <![endif]-->
+        <!--[if lte IE 9]>
+            <script src="/js/jquery.placeholder.js"></script>
+        <![endif]-->
+
+                                    <link rel="alternate" type="application/rss+xml" title="Thingiverse - Chess Set Comments" href="http://rss.thingiverse.com/thing:20">
+                    
+        <script>
+            var _ga_account = null;
+        
+            if (location.hostname.match('thingiverse')) {
+                _ga_account = 'UA-247838-14';
+            } else if (location.hostname.match('makerbot')) {
+                _ga_account = 'UA-7650456-1';
+            }
+
+            if (typeof(mwThingiverse) !== 'undefined' && !mwThingiverse.canHazTracking) {
+                window['ga-disable-' + _ga_account] = true;
+            }
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', _ga_account, 'auto');
+            ga('require', 'ec');
+            ga('send', 'pageview');
+        </script>
+
+    
+    </head>
+
+        <body class="thingiverse loggedout">
+
+    <div id="off-canvas">
+        <div class="login-box">
+    <div class="login-options">
+                <a href="//accounts.thingiverse.com/?redirect=YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNjoiaHR0cHM6Ly93d3cudGhpbmdpdmVyc2UuY29tL3RoaW5nOjIwIjt9" class="sign-in">
+                <span>
+                    <img src="/img/profile-placeholder.jpg" />
+                    <div class="username">Sign In</div>
+                </span>
+            </a>
+
+            <div class="register">
+                <a href="//accounts.thingiverse.com/register?redirect=YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNjoiaHR0cHM6Ly93d3cudGhpbmdpdmVyc2UuY29tL3RoaW5nOjIwIjt9" class="register-link button" href="/register">Join Thingiverse!</a>
+            </div>
+            </div>
+</div>
+<div class="input-prepend search">
+    <form class="form-search" action="http://www.thingiverse.com/search">
+        <input type="text" class="span2 search-query" name="q" placeholder="Enter a search term"/>
+        <button type="submit" name="sa" class="icon"><i class="icon-search"></i></button>
+    </form>
+</div>
+<ul class="nav nav-pills">
+        <li><a href="http://www.thingiverse.com/dashboard" >
+            Dashboard
+                            <span class="badge badge-important" style="display:none"></span>
+                </a></li>
+    <li><a href="http://www.thingiverse.com/explore/">Explore</a></li>
+    <li><a href="http://www.thingiverse.com/apps">Apps</a></li>
+    <li><a href="http://www.thingiverse.com/groups">Groups</a></li>
+    <li><a href="http://www.thingiverse.com/challenges">Challenges</a></li>
+    <li><a href="http://www.thingiverse.com/education">Thingiverse Education</a></li>
+    <li><a href="http://www.thingiverse.com/jumpstart">Jumpstart</a></li>
+    <li><a href="http://www.thingiverse.com/customizer">Customizer</a></li>
+    </ul>
+<ul class="mobile-footer-nav">
+    <li><a href="//www.thingiverse.com/about/">About Thingiverse ®</a></li>
+    <li><a href="//www.thingiverse.com/legal">Legal</a></li>
+    <li><a href="//www.thingiverse.com/support">Contact Us</a></li>
+    <li><a href="//www.thingiverse.com/developers">Developers</a></li>
+</ul>
+
+    </div>
+
+    <div class="loading-screen">
+                <img src="/img/loading.gif" alt="Loading" width="50" height="50"><span class="message"></span>
+    </div>
+
+    
+    <div id="wrapper">
+        <div class="page-container">
+            <div id="push-wrap">
+                <div id="push-main">
+                    <div id="ajax_loader" style="display:none;">
+                        <img src="/img/ajax-loader.gif" alt="Loading...">
+                    </div>
+
+                    <a name="top" class="nodisplay"></a>
+
+                    <div class="header thingiverse">
+	<div class="navbar">
+		<a href="http://www.thingiverse.com"><img src="/img/thingiverse-logo-2015.png" alt="Thingiverse" ></a>
+		<ul class="nav nav-pills">
+			<li><a href="http://www.thingiverse.com/dashboard" >
+											<span class="badge badge-important" style="display:none"></span>
+										Dashboard
+			</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Explore
+                </a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li><a href="http://www.thingiverse.com/newest">Things</a></li>
+					<li><a href="http://www.thingiverse.com/groups">
+                        Groups
+                    </a></li>
+					<li><a href="http://www.thingiverse.com/customizable">Customizable Things</a></li>
+					<li><a href="http://www.thingiverse.com/collections">Collections</a></li>
+					<li><a href="http://www.thingiverse.com/categories">Categories</a></li>
+					<li><a href="http://www.thingiverse.com/challenges">Challenges</a></li>
+					<li><a href="http://www.thingiverse.com/apps">Apps</a></li>
+				</ul>
+			</li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="badge badge-new">&#10029;</span>
+                    Education
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li><a href="http://www.thingiverse.com/education">Thingiverse Education<span class="badge badge-new">NEW</span></a></li>
+                    <li><a href="http://www.thingiverse.com/jumpstart">Jumpstart</a></li>
+                </ul>
+            </li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Create
+                </a>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li><a href="http://www.thingiverse.com/thing:0/edit" class="track" data-track-category="thing" data-track-action="create">
+                        Upload a Thing!
+                    </a></li>
+					<li><a href="http://www.thingiverse.com/customizer">Customize a Thing</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="input-prepend pull-left search">
+			<form class="form-search" action="http://www.thingiverse.com/search">
+				<input type="text" class="span2 search-query" name="q" placeholder="Enter a search term"/>
+				<button type="submit" name="sa" class="icon"><i class="icon-search"></i></button>
+			</form>
+		</div>
+
+		<div class="login">
+			<div class="login-box">
+	        <a href="//accounts.thingiverse.com?redirect=YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNjoiaHR0cHM6Ly93d3cudGhpbmdpdmVyc2UuY29tL3RoaW5nOjIwIjt9" class="login-options">
+                <div class="login-join">Sign in / Join</div>
+        </a>
+	</div>
+		</div>
+
+		<div id="off-canvas-toggle" class="login"><img src="/img/icon-menu.png" alt="Toggle menu" width="34" height="25"></div>
+	</div>
+</div>
+
+                    <script type="text/javascript">var $ = jQuery.noConflict();</script>
+                    <div id="main">
+
+<div id="thing-page" class="page" data-thing-id="20">
+    <div class="main_content">
+                
+                
+    </div>
+    
+            <div class="main_content">
+            
+            <div class="thing-page-header">
+                <div class="profile-pic">
+                    <div class="profile-img-wrapper">
+                        <a href="/adamcecc"><img src="https://www.thingiverse.com/img/default/avatar/avatar_default_thumb_small.jpg" alt="" class="render"  /></a>                    </div>
+                </div>
+
+                <div class="thing-header-data">
+                    <h1>Chess Set</h1>
+                    <h2>
+                        by <a href="/adamcecc">adamcecc</a>, published                        <time datetime="2008-10-31 13:04:51 GMT">
+                            Oct 31, 2008                        </time>
+                    </h2>
+                </div>
+            </div>
+
+            
+            <div class="thing-page-main clearfix">
+                <div class="for-tiny card-slider-holder">
+                                            <div class="thing thing-interaction-parent item-card" 
+         data-type="Thing" 
+         data-id="20" 
+         data-thing-id="20" 
+    title="Chess Set">
+    
+    <div class="row-fluid">
+                <div class="thing-page-image-holder">
+            <div class="thing-page-slider card-slider">
+                <div class="thing-slides">
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img src="https://cdn.thingiverse.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg" alt="Chess Backing" class="thing-img">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg" alt="" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg" alt="" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg" alt="Chess Set" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg" alt="King" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg" alt="Rook" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg" alt="Pawn" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg" alt="Pawn" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg" alt="Knight" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg" alt="Bishop" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg" alt="Queen" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg" alt="King" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg" alt="Pawn" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg" alt="Knight" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg" alt="Rook" class="thing-img load-delay">
+                                                    </div>
+                                            
+                        <div class="thing-page-image featured">
+                                                            <img data-img="https://cdn.thingiverse.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg" alt="Chess Set" class="thing-img load-delay">
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+        
+        <div class="thing-about">
+            <div class="profile-pic">
+                <div class="profile-img-wrapper">
+                    <a href="/adamcecc"><img src="https://www.thingiverse.com/img/default/avatar/avatar_default_thumb_tiny.jpg" alt="" class="render"  /></a>                </div>
+                            </div>
+
+            <span class="thing-who-what">
+                <span class="thing-made">
+                    <span class="thing-name">Chess Set</span>
+                                        <span class="creator-name">by <a href="/adamcecc">adamcecc</a></span>
+                                    </span>
+            </span>
+            
+            <span class="thing-pub-time">
+                                    Oct 31, 2008                            </span>
+        </div>
+
+        <div class="thing-interact">
+                                    <a href="" class="thing-like loginreq" title="Like this Thing">
+                    <span class="interaction-count">36</span>
+                </a>
+                                                                    <a href="" class="thing-collect loginreq" title="Collect this Thing">
+                        <span class="interaction-count collection-count">33</span>
+                    </a>
+                            
+            <a href="/thing:20/#comments" class="thing-comment" title="View Comments">
+                <span class="interaction-count comment-count">0</span>
+            </a>
+        </div>
+
+                
+                        
+                    <p class="thing-banner"><img src="/img/icon-featured.png" alt="Featured Thing!" class="featured-badge badge-icon"></p>
+
+            </div>
+</div>
+                </div>
+
+                <div class="thing-gallery-holder thing-page-left not-for-tiny">
+                    <div class="thing-page-image-holder">
+                        <div class="thing-page-slider main-slider">
+                          <div class="thing-slides">
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                            <div class="thing-page-image featured"
+                                     data-thingiview-url=""
+                                     data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_display_large.jpg"
+                                     data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg"
+                                     data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_tinycard.jpg"
+                                >
+                                                                        <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg">
+                                                                    </div>
+                                                      </div>
+                        </div>
+
+                                                    <div class="thing-page-image-opts">
+                                <button type="button" class="thingiview-btn" title="toggle thingiview" style="display: none;">
+                                    <span>Thingiview</span>
+                                </button>
+                                <button type="button" class="largeview-btn" title="toggle largeview"></button>
+                            </div>
+                        
+                        
+<div class="thingiview">
+
+	<script src="/thingiview/js/three.min.js?v=2"></script>
+	<script src="/thingiview/js/Thingiview.js?v=2"></script>
+	<script src="/thingiview/js/NormalControls.js?v=2"></script>
+	<script src="/thingiview/js/Detector.js?v=2"></script>
+
+	<script>
+		var target_dom_element = $('.thingiview').get(0);
+
+		// parse opts
+		var argv = {};
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+			argv[key] = value;
+		});
+
+		var thingiview = new Thingiview( target_dom_element, 628, 472 );
+		if ( parseInt(argv['width']) && parseInt(argv['height']) )
+			thingiview.resize( parseInt(argv['width']), parseInt(argv['height']) );
+
+		var animate = function() {
+			requestAnimationFrame( animate );
+			thingiview.render();
+		}
+		animate();
+
+		// handle resizes
+		window.addEventListener('resize', function() {
+			if ( thingiview.fullscreen )
+				thingiview.resize(window.innerWidth, 608);
+		});
+
+	</script>
+
+</div>
+
+                        
+                                                    <p class="thing-banner banner-large has-tooltip featured-banner"
+                               data-placement="right" 
+                               title="Featured: Nov 2, 2008">
+                                   <a >
+                                       <img src="/img/icon-featured-lg.png" class="featured-badge badge-icon">
+                                   </a>
+                             </p>
+                        
+                        <div class="video-holder"><iframe class="video-iframe" frameborder="0" scrolling="no" width="628" height="472" src="about:blank" style="display:none"></iframe></div>
+                    </div>
+
+                    <div class="thing-thumbs-holder hidden">
+                        <div class="thing-gallery-left gallery-arrows"></div>
+                        <div class="thing-page-gallery">
+                          <div class="thing-gallery-thumbs">
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img src="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                            <div class="thing-gallery-thumb"
+                                    data-thingiview-url=""
+                                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_display_large.jpg"
+                                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg"
+                                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_tinycard.jpg"
+                                    data-track-category="thing"
+                                    data-track-action="viewThumb"
+                                >
+                                <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_tinycard.jpg">
+                                                            </div>
+                                                      </div>
+                        </div>
+                        <div class="thing-gallery-right gallery-arrows"></div>
+                    </div>
+                </div>
+
+                <div class="thing-page-right">
+                    <div class="thing-interact thing-interaction-parent for-tiny" data-thing-id="20">
+                        <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" target="_blank" class="thing-made" title="I Made One">
+                            <span class="interaction-count">2</span>
+                        </a>
+
+                        
+                        <span class="thing-share" title="Share"> Share
+                                                            <div class="thing-social-share-icons">
+                                    <button type="button" class="close" aria-hidden="true">X</button>
+                                    <div id="twitter_share_button">
+	<iframe src="https://platform.twitter.com/widgets/tweet_button.html?count=horizontal&id=twitter_tweet_button_0&lang=en&original_referer=http://www.thingiverse.com/thing:20&text=Chess Set by adamcecc&url=http://www.thingiverse.com/thing:20" allowtransparency="true" frameborder="0" scrolling="no" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px; " title="Twitter For Websites: Tweet Button"></iframe>
+</div>
+
+<div id="facebook_share_button">
+	<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thingiverse.com/thing:20&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe>
+</div>
+
+<div id="pinterest_share_button">
+		<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.thingiverse.com%2Fthing%3A20&media=https%3A%2F%2Fcdn.thingiverse.com%2Frenders%2Fdd%2F68%2Fd9%2F5b%2Fbd%2F2992958289_9f89b74ac4_o_display_large_display_large.jpg&description=Chess+Set+by+adamcecc." class="pin-it-button" count-layout="horizontal">Pin It</a>
+	<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js" async="true"></script>
+</div>
+                                </div>
+                                                    </span>
+                    </div>
+
+                                                                        <a href="/thing:20/zip" class="thing-download-btn thing-option-btn track launch-modal" data-track-category='["thing", "thing"]' data-track-action='["download", "download_anonymous"]' data-track-label='["zip", "zip"]'>Download All Files</a>
+                                            
+                    <div class="thing-info thing-interact thing-interaction-parent not-for-tiny" data-thing-id="20">
+                        
+                                                                                                                        <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" class="thing-like loginreq" title="Like this Thing">
+                                        Like
+                                        <span class="interaction-count">36</span>
+                                    </a>
+                                                            
+                                                            <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" class="thing-collect loginreq" title="Collect this Thing">
+                                    Collect                                    <span class="interaction-count collection-count">33</span>
+                                </a>
+                                                    
+                        <a href="/thing:20/#comments" data-viewtab="thing-comments" class="view_tab thing-comment" title="View Comments">
+                            Comment
+                            <span class="interaction-count comment-count">0</span>
+                        </a>
+
+                                                                                    <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" target="_blank" class="thing-made" title="I Made One">
+                                    I Made One
+                                    <span class="interaction-count">2</span>
+                                </a>
+                            
+                            
+                                                                                                <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" target="_blank" class="thing-remix" title="Remix It">
+                                        Remix It
+                                        <span class="interaction-count">0</span>
+                                    </a>
+                                                                                    
+                        <span class="thing-share" title="Share"> Share
+                            <div class="thing-social-share-icons">
+                                <button type="button" class="close" aria-hidden="true">X</button>
+                                <div id="twitter_share_button">
+	<iframe src="https://platform.twitter.com/widgets/tweet_button.html?count=horizontal&id=twitter_tweet_button_0&lang=en&original_referer=http://www.thingiverse.com/thing:20&text=Chess Set by adamcecc&url=http://www.thingiverse.com/thing:20" allowtransparency="true" frameborder="0" scrolling="no" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px; " title="Twitter For Websites: Tweet Button"></iframe>
+</div>
+
+<div id="facebook_share_button">
+	<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.thingiverse.com/thing:20&amp;layout=button_count&amp;show_faces=false&amp;width=90&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe>
+</div>
+
+<div id="pinterest_share_button">
+		<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.thingiverse.com%2Fthing%3A20&media=https%3A%2F%2Fcdn.thingiverse.com%2Frenders%2Fdd%2F68%2Fd9%2F5b%2Fbd%2F2992958289_9f89b74ac4_o_display_large_display_large.jpg&description=Chess+Set+by+adamcecc." class="pin-it-button" count-layout="horizontal">Pin It</a>
+	<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js" async="true"></script>
+</div>
+                            </div>
+                        </span>
+
+                                            </div>
+
+                    
+                                    </div>
+            </div>
+
+                        <a name="instructions"></a>
+            <a name="files"></a>
+            <a name="comments"></a>
+            <a name="made"></a>
+            <a name="collections"></a>
+            <a name="remixes"></a>
+            <a name="apps"></a>
+
+            <div class="profile_edit_nav_container not-mobile thing-nav" data-activetab="0">
+                <a href="/thing:20" class="profile_nav_bttn active" data-tab="thing-description">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value"></div>
+                        <div class="name">Thing Details</div>
+                    </div>
+                    
+                                        <div class="profile_nav_bttn_active"><div class="profile_nav_bttn_active_down_tri"></div></div>
+                                    </a>
+                <a href="/thing:20/#files" class="profile_nav_bttn  tab-thing-files" data-tab="thing-files">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value"></div>
+                        <div class="name">Thing Files</div>
+                    </div>
+                </a>
+                <a href="/thing:20/apps/#apps" class="profile_nav_bttn tab-thing-apps " data-tab="thing-apps">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value"></div>
+                        <div class="name">Apps</div>
+                    </div>
+                    
+                                    </a>
+                <a href="/thing:20/#comments" class="profile_nav_bttn" data-tab="thing-comments">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value">0</div>
+                        <div class="name">Comments</div>
+                    </div>
+                </a>
+                <a href="/thing:20/#made" data-ajax="/ajax/things/copies/?id=20" class="profile_nav_bttn " data-tab="thing-made">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value">2</div>
+                        <div class="name">Made</div>
+                    </div>
+                </a>
+                <a href="/thing:20/#collections" data-ajax="/ajax/thingcollection/collections/?view=list_for_thing&thing_id=20" class="profile_nav_bttn " data-tab="thing-collections">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value">33</div>
+                        <div class="name">Collections</div>
+                    </div>
+                </a>
+                <a  class="profile_nav_bttn disabled" data-tab="thing-remixes">
+                    <div class="profile_nav_bttn_wrapper">
+                        <div class="value">0</div>
+                        <div class="name">Remixes</div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section-nav-wrapper thing-menu for-mobile thing-info">
+                <nav class="section-nav">
+                    <div class="subnav-wrapper first-nav">
+                        <div class="selected-section-wrapper"><span class="selected-section">
+                            Thing Details                        </span></div>
+
+                        <div class="dropdown-wrapper">
+                            <div class="selected-section-wrapper"><span class="selected-section">
+                                Thing Details                            </span></div>
+                            <ul class="nav section-dropdown">
+                                <a data-tab="thing-description"><li>Thing Details</li></a>
+                                                                    <a data-tab="thing-files"><li>Files</li></a>
+                                                                <a href="/thing:20/apps/#apps" data-tab="thing-apps"><li>Apps</li></a>
+                                <a data-tab="thing-comments"><li>Comments</li></a>
+                                                                    <a data-tab="thing-made"><li>Made</li></a>
+                                                                                                    <a data-tab="thing-collections"><li>Collections</li></a>
+                                                                                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="thing-page-detail">
+                <div id="thing-page-content">
+                    <div id="ajax-loaded-content" class="tab-content-holder"></div>
+
+                    <div id="thing-description" class="tab-content-holder active">
+                        <div class="thing-page-left">
+                                                        <div class="thing-info thing-contents">
+                                <div class="thing-info-header"><h2>Contents</h2></div>
+                                <ul>
+                                                                            <li><a href="#summary" data-section="summary">Summary</a></li>
+                                                                    </ul>
+                            </div>
+                                                        
+                                                        
+                            <div class="thing-info">
+                                <div class="thing-info-content">
+                                    <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" data-modal="#dialog" class="user-tip-btn">Tip Designer</a>                                    <a class="thing-option-btn report-thing" href="/thing:20/report">Report Thing</a>
+                                </div>
+                            </div>
+                            
+                            <div class="thing-info">
+                                <div class="thing-info-header">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="thing-info-content thing-detail-tags-container">
+                                    <div class="taglist">
+                    <a href="/tag:chess">chess</a>
+                    <a href="/tag:chessboard">chessboard</a>
+                    <a href="/tag:game">game</a>
+    </div>
+                                </div>
+                            </div>
+
+                            
+                            
+                                                        
+                            
+                            <div class="thing-info">
+                                <div class="thing-info-header">
+                                    <h2>License</h2>
+                                </div>
+                                <div class="thing-info-content">
+                                    <div class="thing-license" title="GNU - GPL">
+            <a rel="license" href="http://creativecommons.org/licenses/GPL/2.0/"><img alt="GNU - GPL" style="border-width:0" src="http://www.thingiverse.com/img/cc/gpl.gif" /></a>
+        <div class="license-text">
+        <a href="/thing:20"><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">Chess Set</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.thingiverse.com/adamcecc" property="cc:attributionName" rel="cc:attributionURL">adamcecc</a> is licensed under the <a rel="license" href="http://creativecommons.org/licenses/GPL/2.0/">GNU - GPL</a> license.
+    </div>
+</div>                                </div>
+                            </div>
+                            
+                            <div class="thing-info">
+                                <div class="thing-info-header">
+                                    <h2>Use This Project</h2>
+                                </div>
+                                <div class="thing-info-content">
+                                    <a href="/thing:20/add_derivative" class="thing-option-btn remix-thing">Remix This</a>
+                                </div>
+                            </div>
+
+                            <div class="thing-info not-mobile">
+                                <div class="thing-info-header">
+                                    <h2>Give a Shout Out</h2>
+                                </div>
+
+                                <div class="thing-info-content">
+                                    <p>If you print this Thing and display it in public proudly give attribution by printing and displaying this tag.</p>
+                                    <a target="_blank" href="/thing:20/attribution_card" class="thing-option-btn print-tag">Print Thing Tag</a>
+                                </div>
+                            </div>
+                            
+                                                            <div class="thing-info">
+                                    <div class="thing-list-mini thing-list-mini-narrow">
+                                        <div class="thing-info-header">
+                                            <h2>Makes</h2>
+
+                                                                                    </div>
+
+                                        <div class="thing-info-content">
+                                            <div class="thing-list-mini-container">
+                                                                                                    <div class="thumb" title="Chess Set by Sblinz">
+                                                        <a href="/make:199395" >
+                                                            <img src="https://cdn.thingiverse.com/renders/13/a6/71/e6/58/54578611656798245210940077c32ced_preview_medium.jpg" alt="" class="render"  />                                                        </a>
+                                                    </div>
+                                                                                                    <div class="thumb" title="Chess Set by raphimech">
+                                                        <a href="/make:109896" >
+                                                            <img src="https://cdn.thingiverse.com/renders/d0/7e/fd/8e/40/photo_preview_medium.jpg" alt="" class="render"  />                                                        </a>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                        
+                            <div class="thing-info thing-interact thing-stats">
+                                <div class="thing-info-header">
+                                    <h2>Thing Statistics</h2>
+                                </div>
+                                <span class="thing-views" data-placement="top" title="views"><span class="interaction-count">16576</span><span class="interaction-count">Views</span></span>
+                                <span class="thing-downloads"data-placement="top" title="downloads"><span class="interaction-count">5020</span><span class="interaction-count">Downloads</span></span>
+                                                            </div>
+                        </div>
+                        
+                        <div class="thing-page-right">
+                            <div class="thing-info">
+                                <div id="description" class="thing-info-content">
+                                    <h1 class="thing-component-header summary">Summary</h1>
+            <p>This is a vector file for cutting chess pieces on a cnc machine or laser cutter. </p>    
+                                                                        
+                                                                    </div>
+                            </div>
+
+                                                    </div>
+                    </div>
+
+                    <div id="thing-files" class="tab-content-holder cf thing-info">
+                        <div class="thing-page-left">
+                            <h4 class="details-header">File Name</h4>
+                            <h4 class="downloads-header">Downloads</h4>
+                            <h4 class="size-header">Size</h4>
+
+                            
+                            <div class="thing-file">
+                                <a href="/download:1" class="track thing-file-download-link" data-track-category='["thing", "thing"]' data-track-action='["download", "download_anonymous"]' data-track-label='["file", "file"]' data-thing-id="20" data-file-id="1" data-file-name="chess_0123.svg">
+                                    <img src="https://cdn.thingiverse.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg">
+                                    <div class="detail">
+                                        <div class="filename">chess_0123.svg</div>
+                                        <div>Last updated: 11-05-08</div>
+                                        <div class="downloads for-mobile">Downloads: 5428</div>
+                                        <div class="size for-mobile">Size: 32kb</div>
+                                    </div>
+                                    <span class="downloads">5428</span>
+                                    <span class="size">32kb</span>
+                                </a>
+                            </div>
+                            
+                            <div class="thing-file">
+                                <a href="/download:2" class="track thing-file-download-link" data-track-category='["thing", "thing"]' data-track-action='["download", "download_anonymous"]' data-track-label='["file", "file"]' data-thing-id="20" data-file-id="2" data-file-name="chessboard.svg">
+                                    <img src="https://cdn.thingiverse.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg">
+                                    <div class="detail">
+                                        <div class="filename">chessboard.svg</div>
+                                        <div>Last updated: 11-05-08</div>
+                                        <div class="downloads for-mobile">Downloads: 3162</div>
+                                        <div class="size for-mobile">Size: 6kb</div>
+                                    </div>
+                                    <span class="downloads">3162</span>
+                                    <span class="size">6kb</span>
+                                </a>
+                            </div>
+                                                    </div>
+                        
+                        <div class="thing-page-right">
+                            <div class="thing-info-content">
+                                <div class="thing-license" title="GNU - GPL">
+            <a rel="license" href="http://creativecommons.org/licenses/GPL/2.0/"><img alt="GNU - GPL" style="border-width:0" src="http://www.thingiverse.com/img/cc/gpl.gif" /></a>
+        <div class="license-text">
+        <a href="/thing:20"><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">Chess Set</span></a> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.thingiverse.com/adamcecc" property="cc:attributionName" rel="cc:attributionURL">adamcecc</a> is licensed under the <a rel="license" href="http://creativecommons.org/licenses/GPL/2.0/">GNU - GPL</a> license.
+    </div>
+</div>                                <div class="license-text">
+                                    <a target="_blank" href="/thing:20/attribution_card">
+                                        By downloading this thing, you agree to abide by the license: <span>GNU - GPL</span>
+                                    </a>
+                                </div>
+
+                                                                    <div class="thing-download-zip">
+                                        <a href="/thing:20/zip" class="thing-download-btn thing-option-btn track launch-modal" data-track-category='["thing", "thing"]' data-track-action='["download", "download_anonymous"]' data-track-label='["zip", "zip"]'>Download All Files</a>
+                                        <span>(25 kb zip file)</span>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+
+                    <div id="thing-apps" class="tab-content-holder ">
+                        <section class="thing-apps">
+                            <h1>All Apps</h1>
+                            <form action="#">
+                                                            </form>
+
+                                                            <div class="no-results">
+                                    <p>No results.</p>
+                                </div>
+                                                    </section>
+                    </div>
+
+                    <div id="thing-comments" class="tab-content-holder">
+                            <div class="comment-login">
+        <p>Please <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=">Login</a> to Comment</p>
+    </div>
+
+<div id="comments">
+    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="image-viewer" class="modal hide modal-overflow">
+    <div class="thing-gallery-holder not-for-tiny">
+        <div class="thing-page-header">
+            <div class="profile-pic">
+                <div class="profile-img-wrapper">
+                    <a href="/adamcecc"><img src="https://www.thingiverse.com/img/default/avatar/avatar_default_thumb_small.jpg" alt="" class="render"  /></a>                </div>
+            </div>
+
+            <div class="fs-gallery-controls">
+                <span class="toggle-thumbs"></span>
+                <span><button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button></span>
+            </div>
+
+            <div class="thing-header-data">
+                <h1>Chess Set</h1>
+                <h2>by <a href="/adamcecc">adamcecc</a></h2>
+            </div>
+        </div>
+
+        <div class="fullSizeContent">
+            <div class="fs-gallery-holder active">
+                <div class="thing-gallery-left gallery-arrows"></div>
+
+                <div class="thing-page-image-holder">
+                    <div class="thing-page-slider thing-page-slider-fs">
+                        <div class="thing-slides">
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_display_large.jpg" />
+                        </div>
+                                                <div class="thing-page-image featured"
+                            data-thingiview-url=""
+                            data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_display_large.jpg"
+                            data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg"
+                            data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_tinycard.jpg"
+                        >
+                            <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_display_large.jpg" />
+                        </div>
+                                                </div>
+                    </div>
+
+                    <div class="thing-page-image-opts-wrapper">
+                        <div class="thing-page-image-opts">
+                            <button type="button" class="imageview-thingiview-btn" style="display: none;"><span>Thingiview</span></button>
+                            <iframe class="thingiview-iframe" frameborder="0" scrolling="no" width="100%" height="100%" src="about:blank" style="display:none"></iframe>
+                            <div class="video-holder"><iframe class="video-iframe" frameborder="0" scrolling="no" width="100%" height="100%" src="about:blank" style="display:none"></iframe></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thing-gallery-right gallery-arrows"></div>
+            </div>
+
+            <div class="fs-gallery-thumbs">
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/dd/68/d9/5b/bd/2992958289_9f89b74ac4_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/60/24/a3/13/6f/chessboard_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5d/34/2c/26/d0/chess_0123_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/e1/95/6b/4a/50/2992770369_3ddc196366_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/a3/6c/5d/9e/7a/2992767297_1003094ca3_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/2f/ec/15/2d/fe/2992768365_c086166fea_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/5c/b1/41/89/16/2993612970_aac592d3ff_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/0d/fb/f8/fd/a5/2993612970_aac592d3ff_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d8/0c/05/bf/0a/2993612676_3495e6234a_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1a/d1/4a/b7/0b/2990568096_30a360b2db_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/d3/fd/0a/41/e0/2990567832_e4ffd11504_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/89/0d/27/b6/04/2989714153_ce12f88df5_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/1e/2b/0a/87/9b/2990567314_b0954d3ec2_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/cd/15/12/fb/b0/2990567056_4a8213271f_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/8c/4a/fb/64/76/2990566770_59ed429509_o_display_large_preview_featured.jpg" />
+                </span>
+                                <span class="thing-page-image-thumb"
+                    data-thingiview-url=""
+                    data-large-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_display_large.jpg"
+                    data-medium-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg"
+                    data-thumb-url="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_tinycard.jpg"
+                >
+                    <img class="load-delay" data-img="http://thingiverse-production-new.s3.amazonaws.com/renders/fc/13/c7/c9/9b/2990566542_456f4346e6_o_display_large_preview_featured.jpg" />
+                </span>
+                            </div>
+        </div>
+    </div>
+</div>
+
+<div id='cc-modal' class='modal hide fade modal-overflow'>
+    <div class='main_content'>
+        <header>
+            <h1>Downloading Files...</h1>
+            <span class="remove-item"></span>
+        </header>
+        <div class='left-cc'>
+                <h3>Thing License</h3>
+                <div id='cc-imgs'>
+                                            <img src='/img/cc/gpl.gif' class='non-cc-icon'>
+                                    </div>
+                <p><strong>Chess Set</strong> by adamcecc is licensed under the <strong><a href='http://creativecommons.org/licenses/GPL/2.0/'  target='_blank'>GNU - GPL</a></strong> license.</p>
+                <p>What does this mean?</p>
+                <ul>
+                    
+                    
+                                            <li>Remixing or Changing this Thing is allowed.</li>
+                    
+                                            <li>Commercial use is allowed.</li>
+                                    </ul>
+        </div>
+        <div class="right-cc">
+                        <div class="tip-user">
+                <h3>Show Some Love</h3>
+                <p>Say thanks by giving adamcecc a tip and help them continue to share amazing Things with the Thingiverse community.</p>
+                <a href="/login/YToyOntzOjQ6InR5cGUiO3M6ODoicmVkaXJlY3QiO3M6NDoiZGF0YSI7czozNToiaHR0cDovL3d3dy50aGluZ2l2ZXJzZS5jb20vdGhpbmc6MjAiO30=" data-modal="#dialog" class="user-tip-btn">Tip Designer</a>            </div>
+            <hr>
+                        <div class="promote-make">
+                <img src="/img/cc/camera.png" class="camera">
+                <p>We're sure adamcecc would love to see what you've printed. Please document your print and share a Make with the community.</p>
+                <p>To post a Make simply visit this Thing again and click <strong>I Made One</strong> to start uploading your photo. It’s even easier to post a Make via the Thingiverse Mobile app (available via <a href="https://play.google.com/store/apps/details?id=com.thingiverse&hl=en"  target="_blank">Google Play</a> and <a href="https://itunes.apple.com/us/app/thingiverse/id636202382?mt=8"  target="_blank">Apple App Store</a>).</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div id="dialog" class="new-modal modal hide fade in order-dialog user-tip">
+    <div id="dialog-header" class="modal-header">
+        <button type="button" class="close-btn"><span class="remove-item"></span></button>
+        <h3 id="dialog-title">Show Some Love - Tip adamcecc</h3>
+    </div>
+    
+    <div id="dialog-body">
+        <div id="dialog-payment" class="encourage-tip">
+            <div>
+                <form action="/tip" method="post" class="standard-fields">
+                    <input type="hidden" name="to_user_id" value="9">
+                    <input type="hidden" name="thing_id" value="20">
+                    
+                    <div>
+                                                <h2>Let Them Know</h2>
+                                                
+                        <fieldset class="full-width">
+                                                            <p class="msg-success hidden">Message sent!</p>
+                                
+                                <p>We're sure adamcecc would love a Tip, but unfortunately they
+                                    have not setup their accounts to receive them yet.</p>
+                                    
+                                <p>We can let them know you were interested. Simply click the button below
+                                    and we'll pass along a note to them.</p>
+                                                    </fieldset>
+                        
+                    </div>
+                    
+                                    </form>
+
+                <div class="dialog-footer">
+                    <a href="#" class="dialog-btn-cancel button grey-button">Cancel</a>
+                    
+                                            <a href="#notify" class="button blue-button">Notify Designer</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).on('ready', function() {
+       Thingiverse.TipOrders.View({
+           user_id: 9       }); 
+    });
+</script>
+<img src="/ajax/event/track/?render=image&target_type=thing&target_id=20&event_type=view" width="1" height="1">
+<script>
+    $(document).on('ready', function() {
+        Thingiverse.Thing.View({
+            thing_id: 20,
+            thing_url: '/thing:20',
+            limited_view: 0        });
+    });
+</script>
+            </div>            </div>        </div></div>
+                    <div id="footer">
+                <div class="container">
+                    <div class="logo-small">
+                        <a href="/">Thingiverse</a>
+                    </div>
+                    <ul class="footer-links">
+                        <li><a href="//www.thingiverse.com/about/">About Thingiverse ®</a></li>
+                        <li><a href="//www.thingiverse.com/legal/">Legal</a></li>
+                        <li><a href="//www.thingiverse.com/support">Contact Us</a></li>
+                        <li><a href="//www.thingiverse.com/developers">Developers</a></li>
+                    </ul>
+                    <div class="copy-notice">
+                        <span class="copyright">&copy; 2016 <a href="http://www.makerbot.com">MakerBot® Industries, LLC</a></span>
+                        One MetroTech Center, 21st Floor, Brooklyn, NY 11201
+                    </div>
+                                    </div>
+            </div>
+                </div>
+        <script>
+                            var scripts = [];
+                                    scripts.push('/js/thingiverse/build/footer/scripts-min-6dab4d74b7.js');
+                
+                Modernizr.load({
+                    load: scripts,
+                    complete: function() {
+                        $.holdReady(false);
+                    }
+                });
+            
+                        $(document).on('ready', function() {
+                $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) {
+                    e.stopPropagation();
+                });
+
+                $(document).on('click','.dropdown-menu a',function(){
+                    document.location = $(this).attr('href');
+                });
+
+                
+                            });
+        </script>
+
+        <div id="back-to-top" class="fade">Top</div>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4a13b0a03e","applicationID":"7179973,388812","transactionName":"MVAEYkYACEoEWhddWwgaJUNHFQlUSk0LXVoBRkVAXQQR","queueTime":0,"applicationTime":120,"atts":"HRcHFA4aG0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
