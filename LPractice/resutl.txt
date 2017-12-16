@@ -1,0 +1,12 @@
+/Users/Long/Desktop/gittest/LPractice/.vscode/.ropeproject/config.py
+/Users/Long/Desktop/gittest/LPractice/.vscode/.ropeproject/objectdb
+/Users/Long/Desktop/gittest/LPractice/.vscode/launch.json
+/Users/Long/Desktop/gittest/LPractice/.vscode/settings.json
+/Users/Long/Desktop/gittest/LPractice/py_files/1.txt
+/Users/Long/Desktop/gittest/LPractice/py_files/f_create.py
+/Users/Long/Desktop/gittest/LPractice/py_files/f_lineCount.py
+/Users/Long/Desktop/gittest/LPractice/py_files/f_model_lineCache.py
+/Users/Long/Desktop/gittest/LPractice/py_files/f_read.py
+/Users/Long/Desktop/gittest/LPractice/py_files/GetFolderList/fileList.py
+/Users/Long/Desktop/gittest/LPractice/py_files/GetFolderList/main.py
+/Users/Long/Desktop/gittest/LPractice/py_files/test.txt
