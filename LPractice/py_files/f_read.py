@@ -3,7 +3,6 @@
 import os
 import time
 
-print("test 1")
 print("")
 
 if(os.path.exists("1.txt")):
